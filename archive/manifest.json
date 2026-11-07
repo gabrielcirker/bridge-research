@@ -72,7 +72,7 @@
       "files": [
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -119,7 +119,7 @@
         },
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -213,7 +213,7 @@
       "files": [
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -260,7 +260,7 @@
       "files": [
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -317,7 +317,7 @@
       "files": [
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -379,7 +379,7 @@
         },
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -414,7 +414,7 @@
         },
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -449,7 +449,7 @@
         },
         {
           "name": "README.md",
-          "path": "README.md",
+          "path": "archive/publication-snapshot/README.md",
           "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
         },
         {
@@ -482,7 +482,7 @@
   ],
   "files": [
     {
-      "path": "README.md",
+      "path": "archive/publication-snapshot/README.md",
       "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2",
       "bytes": 820,
       "sources": [

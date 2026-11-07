@@ -1,0 +1,8 @@
+{
+  "artifact": "README.md",
+  "recovered_from_commit": "5f15178",
+  "original_path": "README.md",
+  "bytes": 820,
+  "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2",
+  "note": "Exact historical publication README preserved separately because the current root README is maintained independently. Existing archive manifest checksums are unchanged."
+}
