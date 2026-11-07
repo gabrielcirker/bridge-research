@@ -1,0 +1,760 @@
+{
+  "scope": "Unique research artifacts, with duplicate provenance and version status. Originals are unchanged.",
+  "groups": [
+    {
+      "id": "early-working-draft",
+      "title": "Early working draft",
+      "description": "Pre-revision finite-difference code, source manuscript and figure. The incomplete local PDF is omitted; use the readable historical report below.",
+      "files": [
+        {
+          "name": "bridge_model copy.py",
+          "path": "archive/early-working-draft/bridge_model copy.py",
+          "sha256": "1dab989795c9d64dd6dc71ab4b014dfa2c22f97481ccf500dd361cf128c4dbd7"
+        },
+        {
+          "name": "bridge_paper.tex",
+          "path": "archive/early-working-draft/bridge_paper.tex",
+          "sha256": "38e6500649a54a85a3bab3a5cb41a2d26e11b227ecb823efb3032b8e2ffcea60"
+        },
+        {
+          "name": "deflection_plot.png",
+          "path": "archive/early-working-draft/deflection_plot.png",
+          "sha256": "f2b7098c5ffe24a8cfedfa7e207d486e5b1b8b9eac04395ee571e86ab010834e"
+        }
+      ]
+    },
+    {
+      "id": "original",
+      "title": "Original research snapshot",
+      "description": "December 2025 report and its associated finite-difference model, results and figure. Superseded: the equal-mass hollow geometry and beam discretization were corrected in 2026.",
+      "files": [
+        {
+          "name": "README.md",
+          "path": "archive/original/README.md",
+          "sha256": "1196819c5e5916a4b8183a9a2ab658067fbe1617fa11706ebddae1cf6fccb3a4"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "archive/early-working-draft/deflection_plot.png",
+          "sha256": "f2b7098c5ffe24a8cfedfa7e207d486e5b1b8b9eac04395ee571e86ab010834e"
+        },
+        {
+          "name": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "paper/original/bridge-original.pdf",
+          "sha256": "ea06959609287206c0464d33f1c05944b0377a5251e55c20ca2b4b28ce446117"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "paper/original/bridge-original.tex",
+          "sha256": "fccb26ccdb7447226ec8eee7163f77bc6df7eec813a3c709e0958c348389c70e"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "archive/original/results/results_summary.txt",
+          "sha256": "9a1740cef730a572a68a7fe8b1582c9459765ac114644f3e68a3c5d3d4a32ecc"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "archive/early-working-draft/bridge_model copy.py",
+          "sha256": "1dab989795c9d64dd6dc71ab4b014dfa2c22f97481ccf500dd361cf128c4dbd7"
+        }
+      ]
+    },
+    {
+      "id": "initial-revision",
+      "title": "Initial corrected comparison",
+      "description": "Two-page revision from November 3, 2026. Introduces the corrected finite-element model before the expanded methods and discussion.",
+      "files": [
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "archive/initial-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "sha256": "2342ad572d89384fc012c140f38dfcb6d279e10e85aad931f5129b15c9f22e75"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/initial-revision/paper/bridge_paper.tex",
+          "sha256": "811c5ab045ffc34ed770f001a1477b0e6c4c45c9af5a58203b8edfff1a0fb7f3"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        }
+      ]
+    },
+    {
+      "id": "expanded-revision",
+      "title": "Expanded methods draft",
+      "description": "Three-page intermediate revision recovered from the expanded research ZIP. Preserved as an earlier draft, not the current report.",
+      "files": [
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "archive/expanded-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "sha256": "4e470ef4a59c80dec6a3c9300fa59235398984f658ee7bc3f7a6b95bf615a689"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/expanded-revision/paper/bridge_paper.tex",
+          "sha256": "178d00f815841a0a1739e83706b93883fc5f72c113a600a7ed66065329b9357d"
+        },
+        {
+          "name": "tests/test_model.py",
+          "path": "tests/test_model.py",
+          "sha256": "08d6df6b739c72ccaf99d30d26577de514379a7eb0ecaaf72c84860ed323e834"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        },
+        {
+          "name": "original-paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "paper/original/bridge-original.pdf",
+          "sha256": "ea06959609287206c0464d33f1c05944b0377a5251e55c20ca2b4b28ce446117"
+        },
+        {
+          "name": "original-paper/bridge_paper.tex",
+          "path": "paper/original/bridge-original.tex",
+          "sha256": "fccb26ccdb7447226ec8eee7163f77bc6df7eec813a3c709e0958c348389c70e"
+        }
+      ]
+    },
+    {
+      "id": "source-revision",
+      "title": "Source-only revision",
+      "description": "Intermediate LaTeX source recovered from the source-revisions ZIP. No separate matching PDF was included in that package.",
+      "files": [
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/source-revision/paper/bridge_paper.tex",
+          "sha256": "417bdb71cdea5814e163080db6947b35ab3f58411ae728f177ab6d05fe6289a1"
+        },
+        {
+          "name": "tests/test_model.py",
+          "path": "tests/test_model.py",
+          "sha256": "08d6df6b739c72ccaf99d30d26577de514379a7eb0ecaaf72c84860ed323e834"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        }
+      ]
+    },
+    {
+      "id": "literature-revision",
+      "title": "Literature and methods revision",
+      "description": "Three-page revision with literature, equal-mass geometry and numerical verification sections, before affiliation was added.",
+      "files": [
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "archive/literature-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "sha256": "c32633e66842b7394a26a136a6492ba76363daffda0debf3e2da509a01f3f57c"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/literature-revision/paper/bridge_paper.tex",
+          "sha256": "9d9539c047d2bbba8eb02c81640a2fd992f031587c53eef048d42755c7d7b3c2"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        },
+        {
+          "name": "tests/test_model.py",
+          "path": "tests/test_model.py",
+          "sha256": "08d6df6b739c72ccaf99d30d26577de514379a7eb0ecaaf72c84860ed323e834"
+        }
+      ]
+    },
+    {
+      "id": "affiliation-revision",
+      "title": "Affiliation revision",
+      "description": "Three-page version with University of Michigan affiliation, before the longer discussion and historical affiliation note.",
+      "files": [
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "archive/affiliation-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "sha256": "9bd242aa392528015b4b54591f84254c7df6c50bc1b1d7357e9a5dd624f8b601"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/affiliation-revision/paper/bridge_paper.tex",
+          "sha256": "6f8e72d1c0454b36443db2e8a50e309fd4803953629be3c2b6529ece1f02064a"
+        },
+        {
+          "name": "paper/original/bridge-original.pdf",
+          "path": "paper/original/bridge-original.pdf",
+          "sha256": "ea06959609287206c0464d33f1c05944b0377a5251e55c20ca2b4b28ce446117"
+        },
+        {
+          "name": "paper/original/bridge-original.tex",
+          "path": "paper/original/bridge-original.tex",
+          "sha256": "fccb26ccdb7447226ec8eee7163f77bc6df7eec813a3c709e0958c348389c70e"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        },
+        {
+          "name": "tests/test_model.py",
+          "path": "tests/test_model.py",
+          "sha256": "08d6df6b739c72ccaf99d30d26577de514379a7eb0ecaaf72c84860ed323e834"
+        }
+      ]
+    },
+    {
+      "id": "discussion-revision",
+      "title": "Expanded discussion revision",
+      "description": "Four-page intermediate version before the original 2025 and revised 2026 affiliations were distinguished.",
+      "files": [
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "archive/discussion-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "sha256": "b797adeb913040ad87fb964b5599986d219c39844657e7eb85ae1859d97c25ac"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/discussion-revision/paper/bridge_paper.tex",
+          "sha256": "b48b240ef6973e8b6ee83604911c4764da542931b6e5a14f48eb47a5f263fd1e"
+        },
+        {
+          "name": "paper/original/bridge-original.pdf",
+          "path": "paper/original/bridge-original.pdf",
+          "sha256": "ea06959609287206c0464d33f1c05944b0377a5251e55c20ca2b4b28ce446117"
+        },
+        {
+          "name": "paper/original/bridge-original.tex",
+          "path": "paper/original/bridge-original.tex",
+          "sha256": "fccb26ccdb7447226ec8eee7163f77bc6df7eec813a3c709e0958c348389c70e"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        },
+        {
+          "name": "tests/test_model.py",
+          "path": "tests/test_model.py",
+          "sha256": "08d6df6b739c72ccaf99d30d26577de514379a7eb0ecaaf72c84860ed323e834"
+        }
+      ]
+    },
+    {
+      "id": "packaged-copies",
+      "title": "Other recovered packages",
+      "description": "Files from the personal, updated and combined research packages. Identical files point to one preserved copy rather than duplicate downloads.",
+      "files": [
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "archive/initial-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "sha256": "2342ad572d89384fc012c140f38dfcb6d279e10e85aad931f5129b15c9f22e75"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/initial-revision/paper/bridge_paper.tex",
+          "sha256": "811c5ab045ffc34ed770f001a1477b0e6c4c45c9af5a58203b8edfff1a0fb7f3"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/source-revision/paper/bridge_paper.tex",
+          "sha256": "417bdb71cdea5814e163080db6947b35ab3f58411ae728f177ab6d05fe6289a1"
+        },
+        {
+          "name": "tests/test_model.py",
+          "path": "tests/test_model.py",
+          "sha256": "08d6df6b739c72ccaf99d30d26577de514379a7eb0ecaaf72c84860ed323e834"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        },
+        {
+          "name": "requirements.txt",
+          "path": "requirements.txt",
+          "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2"
+        },
+        {
+          "name": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "path": "archive/initial-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+          "sha256": "2342ad572d89384fc012c140f38dfcb6d279e10e85aad931f5129b15c9f22e75"
+        },
+        {
+          "name": "paper/bridge_paper.tex",
+          "path": "archive/initial-revision/paper/bridge_paper.tex",
+          "sha256": "811c5ab045ffc34ed770f001a1477b0e6c4c45c9af5a58203b8edfff1a0fb7f3"
+        },
+        {
+          "name": "results/results_summary.txt",
+          "path": "results/results_summary.txt",
+          "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1"
+        },
+        {
+          "name": "figures/deflection_plot.png",
+          "path": "figures/deflection_plot.png",
+          "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8"
+        },
+        {
+          "name": "src/bridge_model.py",
+          "path": "src/bridge_model.py",
+          "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "71d1655acbcb1639b3f00cc831ffb34aa0c091045b7af6ff1afe08cf9829a0a2",
+      "bytes": 820,
+      "sources": [
+        "Current repository: README.md",
+        "Initial revision backup: README.md",
+        "bridge-optimization-expanded.zip: bridge-optimization/README.md",
+        "research-source-revisions.zip: bridge-optimization/README.md",
+        "Pre-affiliation backup: README.md",
+        "Pre-expansion backup: README.md",
+        "Pre-historical-affiliation backup: README.md",
+        "bridge-optimization-personal.zip: bridge-optimization/README.md",
+        "bridge-research-updated.zip: bridge-optimization/README.md",
+        "research-projects-personal-clean.zip: bridge-optimization/README.md"
+      ]
+    },
+    {
+      "path": "archive/affiliation-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+      "sha256": "9bd242aa392528015b4b54591f84254c7df6c50bc1b1d7357e9a5dd624f8b601",
+      "bytes": 214186,
+      "sources": [
+        "Pre-expansion backup: paper/Mathematical Optimization of Lightweight Bridge Structures.pdf"
+      ]
+    },
+    {
+      "path": "archive/affiliation-revision/paper/bridge_paper.tex",
+      "sha256": "6f8e72d1c0454b36443db2e8a50e309fd4803953629be3c2b6529ece1f02064a",
+      "bytes": 7531,
+      "sources": [
+        "Pre-expansion backup: paper/bridge_paper.tex"
+      ]
+    },
+    {
+      "path": "archive/discussion-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+      "sha256": "b797adeb913040ad87fb964b5599986d219c39844657e7eb85ae1859d97c25ac",
+      "bytes": 218089,
+      "sources": [
+        "Pre-historical-affiliation backup: paper/Mathematical Optimization of Lightweight Bridge Structures.pdf"
+      ]
+    },
+    {
+      "path": "archive/discussion-revision/paper/bridge_paper.tex",
+      "sha256": "b48b240ef6973e8b6ee83604911c4764da542931b6e5a14f48eb47a5f263fd1e",
+      "bytes": 10048,
+      "sources": [
+        "Pre-historical-affiliation backup: paper/bridge_paper.tex"
+      ]
+    },
+    {
+      "path": "archive/early-working-draft/bridge_model copy.py",
+      "sha256": "1dab989795c9d64dd6dc71ab4b014dfa2c22f97481ccf500dd361cf128c4dbd7",
+      "bytes": 9448,
+      "sources": [
+        "Early working folder: bridge_model copy.py",
+        "Original research backup: src/bridge_model.py"
+      ]
+    },
+    {
+      "path": "archive/early-working-draft/bridge_paper.tex",
+      "sha256": "38e6500649a54a85a3bab3a5cb41a2d26e11b227ecb823efb3032b8e2ffcea60",
+      "bytes": 10743,
+      "sources": [
+        "Early working folder: bridge_paper.tex"
+      ]
+    },
+    {
+      "path": "archive/early-working-draft/deflection_plot.png",
+      "sha256": "f2b7098c5ffe24a8cfedfa7e207d486e5b1b8b9eac04395ee571e86ab010834e",
+      "bytes": 53795,
+      "sources": [
+        "Early working folder: deflection_plot.png",
+        "Original research backup: figures/deflection_plot.png"
+      ]
+    },
+    {
+      "path": "archive/expanded-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+      "sha256": "4e470ef4a59c80dec6a3c9300fa59235398984f658ee7bc3f7a6b95bf615a689",
+      "bytes": 214216,
+      "sources": [
+        "bridge-optimization-expanded.zip: bridge-optimization/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf"
+      ]
+    },
+    {
+      "path": "archive/expanded-revision/paper/bridge_paper.tex",
+      "sha256": "178d00f815841a0a1739e83706b93883fc5f72c113a600a7ed66065329b9357d",
+      "bytes": 6369,
+      "sources": [
+        "bridge-optimization-expanded.zip: bridge-optimization/paper/bridge_paper.tex"
+      ]
+    },
+    {
+      "path": "archive/initial-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+      "sha256": "2342ad572d89384fc012c140f38dfcb6d279e10e85aad931f5129b15c9f22e75",
+      "bytes": 159915,
+      "sources": [
+        "Initial revision backup: paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+        "bridge-optimization-personal.zip: bridge-optimization/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+        "research-projects-personal-clean.zip: bridge-optimization/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf"
+      ]
+    },
+    {
+      "path": "archive/initial-revision/paper/bridge_paper.tex",
+      "sha256": "811c5ab045ffc34ed770f001a1477b0e6c4c45c9af5a58203b8edfff1a0fb7f3",
+      "bytes": 2977,
+      "sources": [
+        "Initial revision backup: paper/bridge_paper.tex",
+        "bridge-optimization-personal.zip: bridge-optimization/paper/bridge_paper.tex",
+        "research-projects-personal-clean.zip: bridge-optimization/paper/bridge_paper.tex"
+      ]
+    },
+    {
+      "path": "archive/literature-revision/paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+      "sha256": "c32633e66842b7394a26a136a6492ba76363daffda0debf3e2da509a01f3f57c",
+      "bytes": 214838,
+      "sources": [
+        "Pre-affiliation backup: paper/Mathematical Optimization of Lightweight Bridge Structures.pdf"
+      ]
+    },
+    {
+      "path": "archive/literature-revision/paper/bridge_paper.tex",
+      "sha256": "9d9539c047d2bbba8eb02c81640a2fd992f031587c53eef048d42755c7d7b3c2",
+      "bytes": 6976,
+      "sources": [
+        "Pre-affiliation backup: paper/bridge_paper.tex"
+      ]
+    },
+    {
+      "path": "archive/original/README.md",
+      "sha256": "1196819c5e5916a4b8183a9a2ab658067fbe1617fa11706ebddae1cf6fccb3a4",
+      "bytes": 616,
+      "sources": [
+        "Original research backup: README.md"
+      ]
+    },
+    {
+      "path": "archive/original/results/results_summary.txt",
+      "sha256": "9a1740cef730a572a68a7fe8b1582c9459765ac114644f3e68a3c5d3d4a32ecc",
+      "bytes": 211,
+      "sources": [
+        "Original research backup: results/results_summary.txt"
+      ]
+    },
+    {
+      "path": "archive/source-revision/paper/bridge_paper.tex",
+      "sha256": "417bdb71cdea5814e163080db6947b35ab3f58411ae728f177ab6d05fe6289a1",
+      "bytes": 6935,
+      "sources": [
+        "research-source-revisions.zip: bridge-optimization/paper/bridge_paper.tex",
+        "bridge-research-updated.zip: bridge-optimization/paper/bridge_paper.tex"
+      ]
+    },
+    {
+      "path": "figures/deflection_plot.png",
+      "sha256": "f015e05011e129fbc5dea96dac07189e521c3cc3023c8ab157d54d4e567f43f8",
+      "bytes": 71330,
+      "sources": [
+        "Current repository: figures/deflection_plot.png",
+        "Initial revision backup: figures/deflection_plot.png",
+        "bridge-optimization-expanded.zip: bridge-optimization/figures/deflection_plot.png",
+        "research-source-revisions.zip: bridge-optimization/figures/deflection_plot.png",
+        "Pre-affiliation backup: figures/deflection_plot.png",
+        "Pre-expansion backup: figures/deflection_plot.png",
+        "Pre-historical-affiliation backup: figures/deflection_plot.png",
+        "bridge-optimization-personal.zip: bridge-optimization/figures/deflection_plot.png",
+        "bridge-research-updated.zip: bridge-optimization/figures/deflection_plot.png",
+        "research-projects-personal-clean.zip: bridge-optimization/figures/deflection_plot.png"
+      ]
+    },
+    {
+      "path": "paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+      "sha256": "ac5d5d58f71f04a7d9fa8667289fb54e782556270224871a2c19eceaf1701ef4",
+      "bytes": 221927,
+      "sources": [
+        "Current repository: paper/Mathematical Optimization of Lightweight Bridge Structures.pdf"
+      ]
+    },
+    {
+      "path": "paper/bridge_paper.tex",
+      "sha256": "93c813f53c4a610f72515cb984cac40a63a992745f130fd97cee0a89ba0770f5",
+      "bytes": 10180,
+      "sources": [
+        "Current repository: paper/bridge_paper.tex"
+      ]
+    },
+    {
+      "path": "paper/original/bridge-original.pdf",
+      "sha256": "ea06959609287206c0464d33f1c05944b0377a5251e55c20ca2b4b28ce446117",
+      "bytes": 215878,
+      "sources": [
+        "Current repository: paper/original/bridge-original.pdf",
+        "Original research backup: paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+        "bridge-optimization-expanded.zip: bridge-optimization/original-paper/Mathematical Optimization of Lightweight Bridge Structures.pdf",
+        "Pre-expansion backup: paper/original/bridge-original.pdf",
+        "Pre-historical-affiliation backup: paper/original/bridge-original.pdf"
+      ]
+    },
+    {
+      "path": "paper/original/bridge-original.tex",
+      "sha256": "fccb26ccdb7447226ec8eee7163f77bc6df7eec813a3c709e0958c348389c70e",
+      "bytes": 17772,
+      "sources": [
+        "Current repository: paper/original/bridge-original.tex",
+        "Original research backup: paper/bridge_paper.tex",
+        "bridge-optimization-expanded.zip: bridge-optimization/original-paper/bridge_paper.tex",
+        "Pre-expansion backup: paper/original/bridge-original.tex",
+        "Pre-historical-affiliation backup: paper/original/bridge-original.tex"
+      ]
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+      "bytes": 23,
+      "sources": [
+        "Current repository: requirements.txt",
+        "Original research backup: requirements.txt",
+        "Initial revision backup: requirements.txt",
+        "bridge-optimization-expanded.zip: bridge-optimization/requirements.txt",
+        "research-source-revisions.zip: bridge-optimization/requirements.txt",
+        "Pre-affiliation backup: requirements.txt",
+        "Pre-expansion backup: requirements.txt",
+        "Pre-historical-affiliation backup: requirements.txt",
+        "bridge-optimization-personal.zip: bridge-optimization/requirements.txt",
+        "bridge-research-updated.zip: bridge-optimization/requirements.txt",
+        "research-projects-personal-clean.zip: bridge-optimization/requirements.txt"
+      ]
+    },
+    {
+      "path": "results/results_summary.txt",
+      "sha256": "67ad096e1b3f21e720488c40b67ff4bc0ed8128ece8c26b7dfd18ec604cf04b1",
+      "bytes": 330,
+      "sources": [
+        "Current repository: results/results_summary.txt",
+        "Initial revision backup: results/results_summary.txt",
+        "bridge-optimization-expanded.zip: bridge-optimization/results/results_summary.txt",
+        "research-source-revisions.zip: bridge-optimization/results/results_summary.txt",
+        "Pre-affiliation backup: results/results_summary.txt",
+        "Pre-expansion backup: results/results_summary.txt",
+        "Pre-historical-affiliation backup: results/results_summary.txt",
+        "bridge-optimization-personal.zip: bridge-optimization/results/results_summary.txt",
+        "bridge-research-updated.zip: bridge-optimization/results/results_summary.txt",
+        "research-projects-personal-clean.zip: bridge-optimization/results/results_summary.txt"
+      ]
+    },
+    {
+      "path": "src/bridge_model.py",
+      "sha256": "a4a41a33da39e8d127b6f9144bc69e3344cfbafe048d2bf92abf51181dbf4bc9",
+      "bytes": 2971,
+      "sources": [
+        "Current repository: src/bridge_model.py",
+        "Initial revision backup: src/bridge_model.py",
+        "bridge-optimization-expanded.zip: bridge-optimization/src/bridge_model.py",
+        "research-source-revisions.zip: bridge-optimization/src/bridge_model.py",
+        "Pre-affiliation backup: src/bridge_model.py",
+        "Pre-expansion backup: src/bridge_model.py",
+        "Pre-historical-affiliation backup: src/bridge_model.py",
+        "bridge-optimization-personal.zip: bridge-optimization/src/bridge_model.py",
+        "bridge-research-updated.zip: bridge-optimization/src/bridge_model.py",
+        "research-projects-personal-clean.zip: bridge-optimization/src/bridge_model.py"
+      ]
+    },
+    {
+      "path": "tests/test_model.py",
+      "sha256": "08d6df6b739c72ccaf99d30d26577de514379a7eb0ecaaf72c84860ed323e834",
+      "bytes": 789,
+      "sources": [
+        "Current repository: tests/test_model.py",
+        "bridge-optimization-expanded.zip: bridge-optimization/tests/test_model.py",
+        "research-source-revisions.zip: bridge-optimization/tests/test_model.py",
+        "Pre-affiliation backup: tests/test_model.py",
+        "Pre-expansion backup: tests/test_model.py",
+        "Pre-historical-affiliation backup: tests/test_model.py",
+        "bridge-research-updated.zip: bridge-optimization/tests/test_model.py"
+      ]
+    }
+  ]
+}

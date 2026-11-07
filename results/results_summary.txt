@@ -1,0 +1,5 @@
+Equal-mass beam comparison (80 elements)
+Mass: 6.280 kg
+solid: max deflection = 0.9766 mm; axial critical load = 210.552 kN; load/weight = 3417.7
+hollow: max deflection = 0.2815 mm; axial critical load = 730.450 kN; load/weight = 11856.7
+tapered: max deflection = 0.6880 mm; axial critical load = 276.663 kN; load/weight = 4490.8

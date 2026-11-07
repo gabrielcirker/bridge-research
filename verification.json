@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-11-07T02:21:01.042020+00:00",
+  "research_sources_changed": false,
+  "model_tests": "2 tests passed; solid closed form and tapered mesh refinement",
+  "numerical_results_reproduced": {
+    "solid": {
+      "max_deflection_mm": 0.9766,
+      "axial_critical_load_kN": 210.552
+    },
+    "hollow": {
+      "max_deflection_mm": 0.2815,
+      "axial_critical_load_kN": 730.45
+    },
+    "tapered": {
+      "max_deflection_mm": 0.688,
+      "axial_critical_load_kN": 276.663
+    }
+  },
+  "archive_hashes_verified": 26,
+  "readable_pdf_count": 7,
+  "report_reader": "Four page images rendered directly from the unchanged current PDF; native embedded PDF also available.",
+  "local_link_check": "passed after verification record created",
+  "python_version": "3.14.2",
+  "browser_verification": "Local Chrome: desktop and 390px layouts checked, all four report images load, zoom control works, native PDF viewer displays, archive groups expand, no horizontal overflow on the mobile page.",
+  "website_tests": "3 tests passed: local links, archive hashes and references, four report pages",
+  "publication_identity": "Fresh repository with research history represented by files and provenance; commit identity uses the approved University of Michigan email."
+}
