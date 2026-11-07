@@ -51,6 +51,17 @@ class WebsiteChecks(unittest.TestCase):
                 self.assertIn(record['path'], artifacts)
                 self.assertEqual(record['sha256'], artifacts[record['path']]['sha256'])
 
+    def test_presentation_omits_decorative_dates(self):
+        text = (ROOT / 'index.html').read_text()
+        self.assertIn('<p class="byline">Gabriel Cirker</p>', text)
+        self.assertIn('<span>(original manuscript)</span>', text)
+        self.assertIn('<span>(revision)</span>', text)
+        self.assertNotIn('revised November 2026', text)
+        self.assertNotIn('Original manuscript 2025', text)
+        self.assertNotIn('Revised 2026', text)
+        self.assertIn('Nishiyama &amp; Sato (2022)', text)
+        self.assertIn('Sepahpour &amp; Chang (2007)', text)
+
     def test_report_pages(self):
         pages = json.loads((ROOT / 'assets/report/pages.json').read_text())
         self.assertEqual(len(pages), 4)
